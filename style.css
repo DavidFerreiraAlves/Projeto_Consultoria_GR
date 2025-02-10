@@ -11,8 +11,9 @@
 :root {
     --background-color: black;
     --cor0: #D7D8CA;
-    --cor1: #C0FF72;
+    --cor1: #82ff72;
     --cor2: #10101A;
+    --cor3: #57f15c;
 
     --font-padrao: 'Archivo', Arial, Verdana, Helvetica, sans-serif;
 }
@@ -74,6 +75,8 @@ header > nav > a:hover {
 
 main {
     background-color: var(--background-color);
+    min-width: 350px;
+   max-width: 1250px;
 }
 
 
@@ -104,7 +107,7 @@ img {
 }
     
 #sec-one > p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     padding-bottom: 60px
     
 }
@@ -155,4 +158,106 @@ section > p {
 }
 div > p {
     color: white;
+}
+
+#sec-two > h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#sec-two > p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+
+h2 {
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+    font-weight: normal;
+}
+.container-h2 {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 30vh; /* Faz com que o container ocupe a altura total da tela */
+}
+
+#gradientdiv{
+    background-image: linear-gradient(to right, var(--cor0), var(--cor1), var(--cor2));
+    border: solid;
+    color: #C0FF72;
+    border-radius: 20px;
+    text-align: center;
+}
+#gradientdiv > #numeros {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-weight: bolder;
+    font-size: 6rem;    
+}
+
+#frases {
+    display:flex;
+    justify-content: space-around;
+    color: black;
+    font-size: 1.6rem;
+    font-weight: bold;       
+}
+
+.container {
+    display: flex;  /* Ativa o flexbox */
+    justify-content: space-between; /* Separa as colunas */
+    gap: 20px; /* Espaçamento entre colunas */
+}
+
+.coluna {
+    flex: 1; /* Faz com que ambas ocupem o mesmo espaço */
+    display: flex;
+    flex-direction: column; /* Organiza as divs em coluna */
+    gap: 10px; /* Espaçamento entre os itens */
+}
+
+.box {
+    padding: 20px;
+    background-color: lightgray; /* Apenas para visualização */
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.caixa{
+    border: 2px solid;
+    border-radius: 15px;
+    color: #57f15c;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+   
+    
+}
+
+h3 {
+    background: linear-gradient(90deg, var(--cor0), var(--cor1), var(--cor3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.caixa > p {
+    mask-size: 800px;
+    font-size: 1.1rem;
+    justify-content: center;
+    padding-left: 75px;
+    padding-right: 45px;
+
+}
+
+.mini-imagens {
+    
 }
