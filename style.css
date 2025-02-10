@@ -5,15 +5,26 @@
     font-family: var(--font-padrao);
     padding: 0px;
     margin: 0px;
+    
 }
 
 :root {
+    --background-color: black;
     --cor0: #D7D8CA;
     --cor1: #C0FF72;
     --cor2: #10101A;
 
     --font-padrao: 'Archivo', Arial, Verdana, Helvetica, sans-serif;
 }
+
+body {
+    display: grid;
+    place-items: center; /* Centraliza horizontalmente e verticalmente */
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
 span.white {
     color: var(--cor0);
 }
@@ -23,29 +34,125 @@ span.green {
 }
 
 header {
-    background-color: var(--cor2);
+    background-color: var(--background-color);
+    padding-bottom:  15px;
+    padding-top: 15px;
+   
+    color: var(--cor0);
 }
 
-nav {
-
+header > h1 {
+    font-size: 25px;
+    margin-left: 10px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    
+    
+}
+header > nav {
+    float: right;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+    color: #C0FF72;
 }
 
-nav > a {
+header > nav > a {
     color: white;
     text-decoration: none;
-    
+    gap: 5px;
+    margin-right: 5px;
+}
+
+header > nav > a:hover {
+    border: 1px solid;
+    color: var(--cor1);
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px 0px 10px 10px;
+
 }
 
 main {
-    background-color: var(--cor2);
+    background-color: var(--background-color);
 }
 
-main > h1 {
+
+.container {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    gap: 120px; /* Espaço entre o texto e a imagem */
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 3rem;
     color: white;
-    font-size: 32px;
-    font-weight:bold;
+}
+
+img {
+    width: 550px; /* Ajuste conforme necessário */
+    min-width: 320px;
+}
+
+#sec-one {
+    color: white;
+    font-size: 2rem;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+    
+#sec-one > p {
+    font-size: 1.5rem;
+    padding-bottom: 60px
+    
+}
+
+#sec-one > p > a {
+    margin-right: 10px;
+}
+
+#blackA {
+    width: 200px;
+    height: 50px;
+    padding: 20px;
+    background-color: black;
+    border: 2px solid;
+    border-radius: 10px;
+    color: var(--cor1);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px; /* Igual à altura do botão */
+    cursor: pointer;
+    
+}
+
+#greenA {
+   width: 200px;
+   height: 50px;
+   padding: 20px;
+   background-color: black;
+   border: 2px solid;
+   border-radius: 10px;
+   color: var(--cor1);
+   text-decoration: none;
+   font-size: 16px;
+    font-weight: bolder;
+   text-align: center;
+   line-height: 50px; /* Igual à altura do botão */
+   cursor: pointer;
 }
 
 main > p {
+    color: white;
+}
+
+section > p {
+    color: white;
+}
+div > p {
     color: white;
 }
