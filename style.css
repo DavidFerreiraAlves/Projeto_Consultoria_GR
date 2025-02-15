@@ -169,7 +169,7 @@ div > p {
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
-    padding-bottom: 60px;
+    padding-bottom: 150px;
 }
 
 h2 {
@@ -228,14 +228,13 @@ h2 {
     border: 1px solid rgb(0, 0, 0);
 }
 
-.caixa{
+.caixa {
     border: 2px solid;
     border-radius: 15px;
     color: #57f15c;
-    text-align: justify;
     margin-left: 100px;
-    margin-right: 100px;
-   
+    margin-right: 100px; 
+    text-align: justify;
     
 }
 
@@ -244,13 +243,13 @@ h3 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 15px;
     font-size: 1.3rem;
 }
 
 .caixa > p {
-    mask-size: 800px;
+    mask-size: 900px;
     font-size: 1.1rem;
     justify-content: center;
     padding-left: 75px;
@@ -258,6 +257,8 @@ h3 {
 
 }
 
-.mini-imagens {
-    
+
+   
+footer {
+    margin-top: 150px;
 }
