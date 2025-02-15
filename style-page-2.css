@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&display=swap');
+
+* {
+    font-family: var(--font-padrao);
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body {
+    background-color: black;
+}
+
+:root {
+    --background-color: black;
+    --cor0: #D7D8CA;
+    --cor1: #82ff72;
+    --cor2: #10101A;
+    --cor3: #57f15c;
+
+    --font-padrao: 'Archivo', Arial, Verdana, Helvetica, sans-serif;
+}
+
+span.white {
+    color: var(--cor0);
+}
+
+span.green {
+    color: var(--cor1);
+}
+
+header {
+    background-color: var(--background-color);
+    padding-bottom:  15px;
+    padding-top: 15px;
+   
+    color: var(--cor0);
+}
+
+header > div > h1 {
+    display: flex;
+    font-size: 25px;
+    margin-left: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+}
+
+
+header > nav {
+    float: right;
+    margin-top: 1px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+    color: #C0FF72;
+}
+
+header > nav > a {
+    color: white;
+    text-decoration: none;
+    gap: 5px;
+    margin-right: 5px;
+}
+
+header > nav > a:hover {
+    border: 1px solid;
+    color: var(--cor1);
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px 0px 10px 10px;
+
+}
+main {
+    margin-top: 150px;
+    display: grid;
+    justify-content: center;
+    color: white;
+}
+
+main > ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+#contatos-p {
+    color: black;
+}
+
+ul > p {
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 30px;
+    font-size: 3rem;
+    border-radius: 50px;
+    border: solid 2px;
+    color: #57f15c;
+    background-image: linear-gradient(to right, var(--cor0), var(--cor1), var(--cor2));
+    border: solid;
+    color: #C0FF72;
+}
+
+ul > li {
+    margin-bottom: 30px; 
+}
+
+li > a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+li > a:hover {
+    color: var(--cor1);
+    
+footer {
+   
+    margin-top: 150px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid;
+    color: #C0FF72;
+    margin-bottom: 50px;
+}

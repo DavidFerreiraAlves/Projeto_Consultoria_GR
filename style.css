@@ -260,5 +260,21 @@ h3 {
 
    
 footer {
+   
     margin-top: 150px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid;
+    color: #C0FF72;
+    margin-bottom: 50px;
 }
+
+footer > div > a {
+    color: white;
+    text-decoration: none;
+}
+
+footer > div > a:hover {
+    border: 1px solid;
+    color: var(--cor1);
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px 0px 10px 10px;}
