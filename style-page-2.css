@@ -111,12 +111,8 @@ li > a {
 
 li > a:hover {
     color: var(--cor1);
-    
-footer {
-   
-    margin-top: 150px;
-    padding-bottom: 5px;
-    border-bottom: 1px solid;
-    color: #C0FF72;
-    margin-bottom: 50px;
+}
+
+#hidden-li {
+    visibility: hidden;
 }
