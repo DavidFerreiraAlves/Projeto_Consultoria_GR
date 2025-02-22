@@ -21,8 +21,8 @@
 body {
     display: grid;
     place-items: center; /* Centraliza horizontalmente e verticalmente */
-    height: 100vh;
-    min-width: 320px;
+    /*height: 100vh;*/
+    min-height: 100vh;
     margin: 0;
     background-color: black;
 }
@@ -268,7 +268,7 @@ h3 {
    
 footer {
    
-    margin-top: 150px;
+    margin-top: 30px;
     padding-bottom: 5px;
     border-bottom: 1px solid;
     color: #C0FF72;
