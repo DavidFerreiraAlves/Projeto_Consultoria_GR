@@ -209,16 +209,15 @@ h2 {
 }
 
 .container {
-    display: flex;  /* Ativa o flexbox */
-    justify-content: space-between; /* Separa as colunas */
-    gap: 20px; /* Espaçamento entre colunas */
+    display: grid;
+    justify-content: center;
 }
 
 .coluna {
     flex: 1; /* Faz com que ambas ocupem o mesmo espaço */
     display: flex;
     flex-direction: column; /* Organiza as divs em coluna */
-    gap: 10px; /* Espaçamento entre os itens */
+    gap: 15px; /* Espaçamento entre os itens */
 }
 
 .box {
@@ -236,6 +235,13 @@ h2 {
     margin-right: 100px; 
     text-align: justify;
     
+}
+
+#sec-img-col {
+    display: grid;
+    justify-content: center;
+    margin-top: -200px;
+    margin-bottom: -250px;
 }
 
 h3 {
