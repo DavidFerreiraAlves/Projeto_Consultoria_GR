@@ -23,6 +23,7 @@ body {
     place-items: center; /* Centraliza horizontalmente e verticalmente */
     /*height: 100vh;*/
     min-height: 100vh;
+    min-width: 100vh;
     margin: 0;
     background-color: black;
 }
@@ -232,8 +233,8 @@ h2 {
     border: 2px solid;
     border-radius: 15px;
     color: #57f15c;
-    margin-left: 100px;
-    margin-right: 100px; 
+    margin-left: 50px;
+    margin-right: 50px; 
     text-align: justify;
     
 }
