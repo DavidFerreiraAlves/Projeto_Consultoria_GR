@@ -10,7 +10,7 @@ A modern and responsive landing page designed for a consulting company. This pro
 - **Modular Code** – Well-organized and easily customizable
 
 ## 📸 Preview
-![Project Preview](assets/screenshots/preview.png)
+![Project Preview](https://davidferreiraalves.github.io/Projeto_Consultoria_GR/)
 
 ## 🛠️ Technologies Used
 - **HTML5**
