@@ -1,77 +1,60 @@
-# Projeto_Consultoria_GR
-Consulting GR Project
+# GR Consulting Project
 
 Website for a consultancy specialized in risk monitoring.
 
-Index
+## Index
+- Project Description
+- Features
+- Application Demo
+- Technologies Used
+- How to Access the Project
+- How to Run the Project Locally
+- License
+- Contact
 
-Project Description
+## Project Description
+The GR Consulting Project is a website developed for a consultancy specializing in risk monitoring. The objective is to provide information about the services offered, allow clients to get in touch, and access relevant content about risk management.
 
-Features
+## Features
+- **Home Page:** Presentation of the services and key differentiators of the consultancy.
+- **Contact Page:** A form for clients to contact directly through the website.
+- **Blog:** A section dedicated to articles and news related to risk monitoring. *(Future feature)*
 
-Application Demo
+## Application Demo
+You can access the current version of the website through this link: **[GR Consulting Project](#)**
 
-Technologies Used
+**Note:** As the project is still under development, some features may not be fully implemented.
 
-How to Access the Project
+## Technologies Used
+- **HTML5:** Structure of the pages.
+- **CSS3:** Styling and responsive layout.
+- **JavaScript:** Interactivity and dynamic functionalities. *(Future feature)*
 
-How to Run the Project Locally
+## How to Access the Project
+To access the project, simply click the following link: **[GR Consulting Project](https://davidferreiraalves.github.io/Projeto_Consultoria_GR/)**
 
-License
-
-Contact
-
-Project Description
-
-The Consulting GR Project is a website developed for a consultancy specialized in risk monitoring. The goal is to provide information about the services offered, allow clients to get in touch, and access relevant content on risk management.
-
-Features
-
-Home Page: Presentation of the consultancy's services and key differentiators.
-
-Contact Page: A form allowing clients to contact the consultancy directly through the website.
-
-Blog: A section for articles and news related to risk monitoring. (Future feature)
-
-Application Demo
-
-You can access the current version of the website via this link: Consulting GR Project
-
-Note: Since the project is still under development, some features may not be fully implemented.
-
-Technologies Used
-
-HTML5: Page structure.
-
-CSS3: Styling and responsive layout.
-
-JavaScript: Interactivity and dynamic functionalities. (Future feature)
-
-How to Access the Project
-
-To access the project, simply click the following link: Consulting GR Project
-
-How to Run the Project Locally
-
+## How to Run the Project Locally
 If you want to clone and run the project locally, follow these steps:
 
-Clone the repository:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/DavidFerreiraAlves/Projeto_Consultoria_GR.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Projeto_Consultoria_GR
+   ```
+3. Open the `index.html` file in your browser.
 
-git clone https://github.com/DavidFerreiraAlves/Projeto_Consultoria_GR.git
+**Note:** Make sure you have an updated browser for better compatibility.
 
-Navigate to the project directory:
-
-cd Projeto_Consultoria_GR
-
-Open the index.html file in your browser.
-
-Note: Make sure to use an updated browser for better compatibility.
-
-License
-
+## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Contact
+## Contact
+**David Ferreira Alves**
 
-David Ferreira AlvesLinkedInEmail
+- [LinkedIn](https://www.linkedin.com/in/david-ferreira-alves-4721aa344/)
+
+
 
