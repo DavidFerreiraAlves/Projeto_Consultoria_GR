@@ -21,7 +21,7 @@ The GR Consulting Project is a website developed for a consultancy specializing 
 - **Blog:** A section dedicated to articles and news related to risk monitoring. *(Future feature)*
 
 ## Application Demo
-You can access the current version of the website through this link: **[GR Consulting Project](#)**
+You can access the current version of the website through this link: **[GR Consulting Project](https://github.com/DavidFerreiraAlves/Projeto_Consultoria_GR)**
 
 **Note:** As the project is still under development, some features may not be fully implemented.
 
