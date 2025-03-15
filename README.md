@@ -1,60 +1,41 @@
-# GR Consulting Project
+# 🚀 Consulting Company Landing Page
 
-Website for a consultancy specialized in risk monitoring.
+A modern and responsive landing page designed for a consulting company. This project showcases a professional and visually appealing interface, ensuring a seamless user experience across all devices.
 
-## Index
-- Project Description
-- Features
-- Application Demo
-- Technologies Used
-- How to Access the Project
-- How to Run the Project Locally
-- License
-- Contact
+## 🌟 Features
+- **Responsive Design** – Optimized for all screen sizes
+- **Clean UI/UX** – Elegant and intuitive layout
+- **Interactive Components** – Engaging sections with smooth animations
+- **SEO Optimized** – Structured for better search engine visibility
+- **Modular Code** – Well-organized and easily customizable
 
-## Project Description
-The GR Consulting Project is a website developed for a consultancy specializing in risk monitoring. The objective is to provide information about the services offered, allow clients to get in touch, and access relevant content about risk management.
+## 📸 Preview
+![Project Preview](assets/screenshots/preview.png)
 
-## Features
-- **Home Page:** Presentation of the services and key differentiators of the consultancy.
-- **Contact Page:** A form for clients to contact directly through the website.
-- **Blog:** A section dedicated to articles and news related to risk monitoring. *(Future feature)*
+## 🛠️ Technologies Used
+- **HTML5**
+- **CSS3** (Flexbox & Grid)
+- **JavaScript**
+- **Bootstrap** (optional, if used)
 
-## Application Demo
-You can access the current version of the website through this link: **[GR Consulting Project](https://github.com/DavidFerreiraAlves/Projeto_Consultoria_GR)**
-
-**Note:** As the project is still under development, some features may not be fully implemented.
-
-## Technologies Used
-- **HTML5:** Structure of the pages.
-- **CSS3:** Styling and responsive layout.
-- **JavaScript:** Interactivity and dynamic functionalities. *(Future feature)*
-
-## How to Access the Project
-To access the project, simply click the following link: **[GR Consulting Project](https://davidferreiraalves.github.io/Projeto_Consultoria_GR/)**
-
-## How to Run the Project Locally
-If you want to clone and run the project locally, follow these steps:
-
+## 📂 Installation & Usage
 1. Clone the repository:
-   ```bash
+   ```sh
    git clone https://github.com/DavidFerreiraAlves/Projeto_Consultoria_GR.git
    ```
-2. Navigate to the project directory:
-   ```bash
+2. Navigate to the project folder:
+   ```sh
    cd Projeto_Consultoria_GR
    ```
-3. Open the `index.html` file in your browser.
+3. Open `index.html` in your browser
 
-**Note:** Make sure you have an updated browser for better compatibility.
+## 📬 Contact
+👨‍💻 **David Ferreira Alves**  
+🔗 [LinkedIn](https://www.linkedin.com/in/david-ferreira-alves-4721aa344/)  
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
-## Contact
-**David Ferreira Alves**
-
-- [LinkedIn](https://www.linkedin.com/in/david-ferreira-alves-4721aa344/)
+---
+⭐ If you like this project, feel free to **star** the repository! 😊
 
 
 
